@@ -119,7 +119,8 @@ const skillGroups = [
   { label: 'Hardware',  skills: ['ESP32'] },
   { label: 'Web',       skills: ['HTML', 'CSS'] },
   { label: 'Design',    skills: ['UI/UX design', 'Figma', 'Inkscape', 'Canva'] },
-  { label: 'My Laptop', skills: ['HP Elitebook 840 G2','1366x768@60hz', 'Intel i5 1st gen 5300U', 'iGPU Intel 5500 HD', 'Fan Works?: Probably...']
+  { label: 'My Laptop', skills: ['HP Elitebook 840 G2','1366x768@60hz',] },
+  { label: 'Specz',     skills:  ['Intel i5 1st gen 5300U', 'iGPU Intel 5500 HD', 'Fan Works?: Probably...'] }
 ];
 
 // ─────────────────────────────────────────────
