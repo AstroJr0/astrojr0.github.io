@@ -104,7 +104,7 @@ const projects = [
     title: 'Tauri Authenticator', kind: 'Desktop app (Linux/Windows/macOS)',
     description: 'A cross-platform authenticator built with Tauri: small footprint, fast startup, and a UI that doesn\'t look like a warning dialog from 2009. Daily-use smoothness—clean flows, low friction, desktop-native feel—so security doesn\'t have to be a punishment.',
     tech: ['Tauri', 'JavaScript', 'Desktop', 'UI/UX'],
-    link: 'https://github.com/AstroJr0/tauri'
+    link: 'https://github.com/AstroJr0/uvz-auther'
   },
   {
     title: 'Vocaloid', kind: 'Vocaloid voicebank',
