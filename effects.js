@@ -5,7 +5,7 @@
 /*
   @AUTHER       : AstroJr0 (github.com/AstroJr0)
   Date Created  : 09-12-2025
-  Last Modified : 10-03-2026
+  Last Modified : 11-03-2026
 */
 
 (function () {
@@ -104,35 +104,6 @@
     .ce-planet:hover { transform: scale(1.14); }
   `;
   document.head.appendChild(css);
-
-  // ─────────────────────────────────────────────
-  //  PARALLAX
-  // ─────────────────────────────────────────────
-  (function initParallax() {
-    const canvas = document.getElementById('starfield');
-    if (!canvas) return;
-    canvas.style.cssText += `
-      width: calc(100% + 60px) !important;
-      height: calc(100% + 60px) !important;
-      top: -30px !important;
-      left: -30px !important;
-    `;
-    let pX = 0, pY = 0, tX = 0, tY = 0;
-    const STRENGTH = 24;
-
-    window.addEventListener('pointermove', e => {
-      tX = (e.clientX / window.innerWidth  - 0.5) * -STRENGTH;
-      tY = (e.clientY / window.innerHeight - 0.5) * -STRENGTH;
-    }, { passive: true });
-
-    function tick() {
-      pX += (tX - pX) * 0.055;
-      pY += (tY - pY) * 0.055;
-      canvas.style.transform = `translate(${pX.toFixed(2)}px,${pY.toFixed(2)}px)`;
-      requestAnimationFrame(tick);
-    }
-    tick();
-  })();
 
   // ─────────────────────────────────────────────
   //  NEBULA CANVAS 
