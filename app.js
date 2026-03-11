@@ -877,7 +877,7 @@ document.getElementById("no-btn").addEventListener("click", () => {
 brandBtn.addEventListener("click", () => {
   brandClicks++;
   brandBtn.textContent =
-    brandClicks >= 5 ? "Bro, Im still a student fr" : "Student dev !";
+    brandClicks >= 5 ? "Bro, Im still a student fr" : "Student Dev !";
 });
 
 // ─────────────────────────────────────────────
